@@ -136,7 +136,7 @@ export class DealershipView {
             return;
         }
 
-        Athena.vehicle.add.toDatabase(playerData._id.toString(), vehicleInfo.name, { x: 0, y: 0, z: 0 });
+        Athena.vehicle.add.toDatabase(playerData._id.toString(), vehicleInfo.name, { x: -53.617584228515625, y: -1117.107666015625, z: 25.942529296875 });
 
         Athena.player.emit.notification(player, DEALERSHIP_LOCALE.VEHICLE_MOVED_TO_NEAREST_GARAGE);
         const name = vehicleInfo.name;
